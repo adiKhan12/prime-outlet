@@ -72,13 +72,13 @@ app.use("/api/order", orderRouter);
 app.use("/api/customize", customizeRouter);
 
 // Serve the static files from the React app
-app.use(express.static(path.join(__dirname, '..', 'client', 'build')));
+app.use(express.static(path.join(__dirname, 'build')));
 
 // Serve your API routes here...
 
 // Catch-all route to serve the React app's index.html file
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '..', 'client', 'build', 'index.html'));
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
 
 // Run Server
