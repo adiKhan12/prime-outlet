@@ -19,7 +19,6 @@ go user model and see the role field.
 const express = require("express");
 const app = express();
 const path = require('path');
-require("dotenv").config();
 const mongoose = require("mongoose");
 const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
