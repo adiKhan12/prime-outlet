@@ -40,10 +40,6 @@ const CreateAllFolder = require("./config/uploadFolderCreateScript");
 /* Create All Uploads Folder if not exists | For Uploading Images */
 CreateAllFolder();
 
-if (process.env.NODE_ENV !== "production") {
-  require("dotenv").config();
-}
-
 // Database Connection
 mongoose
   .connect(process.env.MONGODB_URI, {
