@@ -4,7 +4,9 @@ This is a fully featured get to go mern-stack ecommerce website. The instruction
 
 ### Prerequisites
 
-NPM / Yarn and Node.js installed
+- NPM
+- YARN
+- NodeJs
 
 ### Installing
 
