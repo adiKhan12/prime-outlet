@@ -43,6 +43,7 @@ npm run build
 Now move the build folder to the root directory and deploy.
 
 ### Acknowledgments
-- @hasan-py
+- [@hasan-py](https://github.com/hasan-py)
+
 
 
