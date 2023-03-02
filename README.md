@@ -17,22 +17,23 @@ cd client && npm install
 ```
 
 ```
-cd server && npm install
+cd .. && npm install
 ```
 
 ### Running the app
 
-Open a terminal on server directory
+- In the Root of the directory execute the following command in terminal:
 
-```
-npm run start:dev
-```
-
-and open another terminal on client directory
 ```
 npm run start
 ```
-Access the web app at http://localhost:3000/
+this will start the server.
+
+- Now `cd client` and execute the following command in the client directory:
+```
+npm run start
+```
+Now Access the web app at http://localhost:3000/
 
 ### Deploying the app
 in order to deloy the app make a build first by using the below command.
